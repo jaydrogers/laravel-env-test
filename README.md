@@ -71,6 +71,7 @@ docker run --rm \
 	-e DB_DATABASE=laravel \
 	-e DB_USERNAME=example-app-user \
 	-e DB_PASSWORD=example-app-password \
+	-e AUTORUN_LARAVEL_MIGRATION=true \
 	localhost/laravel-env-test-php
 ```
 
